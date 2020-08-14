@@ -9,7 +9,7 @@ MySQL or PostgreSQL Database or any RDBMS
 ```
 
 ## Usage :
-```
+
 - Add the maven package acording to your database in pom.xml
 - Change the Database link in application.properties
 - Change the Databse username and Password with yours
@@ -18,4 +18,4 @@ MySQL or PostgreSQL Database or any RDBMS
 - Assign the role manualy by doing the entry in db user_table_roles (hibernate generated)
 - Now do the login at `localhost:8080/` 
 - you can change the configuration under the package name `config.security`
-```
+
